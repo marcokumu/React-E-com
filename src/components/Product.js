@@ -52,3 +52,22 @@ function Product() {
                                                 </span>
                                             </div>
                                         </div>
+                                        <p className="about">
+                                            <Skeleton height={10} width={300} />
+                                            <Skeleton height={10} width={300} />
+                                            <Skeleton height={10} width={300} />
+                                            <Skeleton height={10} width={300} />
+                                        </p>
+                                        <div className="cart mt-4 align-items-center">
+                                            <Skeleton height={40} width={150} />
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </>
+        )
+    }
