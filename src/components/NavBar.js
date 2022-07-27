@@ -12,7 +12,7 @@ const Navbar = () => {
                         <i className="fa fa-bars"></i>
                     </button>
                     <NavLink to="/">
-                        <img src="/FakeShop.png" alt="logo" style={{ height: "50px" }} />
+                        <img src="carousel-pics/img.png" alt="logo" style={{ height: "100px" }} />
                     </NavLink>
                     <button className="navbar-toggler" type="button">
                         <i className="fa fa-shopping-cart"></i>
@@ -20,7 +20,7 @@ const Navbar = () => {
                     <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div className="offcanvas-header">
                             <NavLink to="/">
-                                <img src="/FakeShop.png" alt="logo" style={{ height: "50px" }} />
+                                <img src="carousel-pics/img.png" alt="logo" style={{ height: "100px" }} />
                             </NavLink>
                             <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
