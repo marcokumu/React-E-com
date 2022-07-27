@@ -1,5 +1,5 @@
-import './App.css';
-import Navbar from './components/Navbar';
+
+import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Products from './components/Products';
 import Product from './components/Product';
@@ -9,7 +9,7 @@ import { Route, Routes } from 'react-router-dom';
 function App() {
   return (
     <>
-      <Navbar />
+      <NavBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/products" element={<Products />} />
