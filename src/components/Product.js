@@ -119,3 +119,15 @@ function Product() {
             </>
         )
     }
+    return (
+        <>
+            <div className="container px-0 mb-5" style={{ marginTop: "66px" }}>
+
+                {loading ? <Loading /> : <ShowDetails />}
+
+            </div>
+        </>
+    )
+}
+
+export default Product
