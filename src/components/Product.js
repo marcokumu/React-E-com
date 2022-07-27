@@ -101,11 +101,11 @@ function Product() {
                                                 {product.title}
                                             </h5>
 
-                                            Rating {product.rating && product.rating.rate}
+                                            {/* Rating {product.rating && product.rating.rate} */}
                                             <i className="fa fa-star text-warning"></i>
 
                                             <div className="price d-flex flex-row align-items-center">
-                                                <big className="display-6"><b>${product.price}</b></big>
+                                                <big className="display-6"><b>Ksh.{product.price}</b></big>
                                             </div>
                                         </div>
                                         <p className="text-muted">{product.description}</p>
