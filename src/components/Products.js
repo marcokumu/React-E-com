@@ -12,7 +12,7 @@ function Products() {
         let componentMounted = true;
         const getProdcuts = async () => {
             setLoading(true);
-            const response = await fetch('https://electronics-details.herokuapp.com/electronics');
+            const response = await fetch(`https://electronics-details.herokuapp.com/electronics`);
             if (componentMounted) {
                 const data = await response.json();
                 setData(data);

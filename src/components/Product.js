@@ -12,7 +12,7 @@ function Product() {
     useEffect(() => {
         const getProduct = async () => {
             setLoading(true);
-            const response = await fetch(`https://electronics-details.herokuapp.com/electronics${id}`);
+            const response = await fetch(`https://electronics-details.herokuapp.com/electronics`);
             const data = await response.json();
             setProduct(data);
             setLoading(false);
