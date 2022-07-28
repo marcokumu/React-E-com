@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# E-COMMERCE APP WITH REACTJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## AUTHOR 
 
-## Available Scripts
+- ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FMarkOkumu5)
+- Github:  <a href="https://github.com/marcokumu">marcokumu </a>
+- LinkedIn:  <a href="https://www.linkedin.com/in/markokumu/">marcokumu </a>
+## ELECTRONICS
+This is an SPA (Single Page Application) that has been built with certain objectives in mind. Some of the objectives include:
 
-In the project directory, you can run:
+    1. The user should be able to view different electronic products on the page.
 
-### `npm start`
+    2. The user should be able to add items to the cart.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    3. The website should be consuming a json.server with my own data.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## LANGUAGES USED 
+    
+    1.HTML
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    2.CSS
 
-### `npm run build`
+    3.JAVASCRIPT (REACTjs)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## CHALLENGES FACED WHEN BUILDING THIS APP
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Entering my own data in the json.server was a long and tedious process. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## INSTALLATION PROCESS 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In order to clone this project, use the following SSH url:   
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+"git@github.com:marcokumu/React-E-com.git"
 
-## Learn More
+![Alt text](./public/carousel-pics/Screenshot%20from%202022-07-28%2011-29-12.png "Title")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## LIVE LINK
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Here is the project's live link:
 
-### Code Splitting
+## BACKEND REPO
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Here's the json.server: <br>
+https://github.com/marcokumu/electronics-json-server
 
-### Analyzing the Bundle Size
+## CONTRIBUTING 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Making a Progressive Web App
+## LICENSE 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<a href="https://choosealicense.com/licenses/mit/">[MIT]</a>
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![APM](https://img.shields.io/apm/l/pack?style=for-the-badge)
