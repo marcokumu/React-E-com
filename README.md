@@ -40,7 +40,8 @@ In order to clone this project, use the following SSH url:
 
 ## LIVE LINK
 
-Here is the project's live link:
+Here is the project's live link: <br>
+https://okumuelectronics.netlify.app/
 
 ## BACKEND REPO
 
