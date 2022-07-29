@@ -10,9 +10,9 @@ function Products() {
 
     useEffect(() => {
         let componentMounted = true;
-        const getProdcuts = async () => {
+        const getProducts = async () => {
             setLoading(true);
-            const response = await fetch(`https://electronics-details.herokuapp.com/electronics`);
+            const response = await fetch(`https://e-products.herokuapp.com/electronics`);
             if (componentMounted) {
                 const data = await response.json();
                 setData(data);
@@ -23,7 +23,7 @@ function Products() {
                 componentMounted = false;
             }
         }
-        getProdcuts();
+        getProducts();
     }, []);
 
     const Loading = () => {
@@ -100,19 +100,19 @@ function Products() {
 
                 <div className="col-md-9 py-md-3">
                     <div className="row">
-                        {filter.map((product) => {
+                        {filter.map((getProducts) => {
                             return (
-                                <div className="col-6 col-md-6 col-lg-4 mb-3" key={product.id}>
+                                <div className="col-6 col-md-6 col-lg-4 mb-3" key={getProducts.id}>
 
                                     <div className="card h-100">
-                                        <img src={product.image} className="m-3" style={{ height: "300px", width: "auto", objectFit: "contain" }} alt={product.title} />
+                                        <img src={getProducts.image} className="m-3" style={{ height: "300px", width: "auto", objectFit: "contain" }} alt={getProducts.title} />
                                         <div className="m-3 mb-0">
-                                            <small className="card-title">{product.title.substring(0, 50)}...</small>
+                                            <small className="card-title">{getProducts.title.substring(0, 50)}...</small>
                                         </div>
                                         <div style={{ marginTop: "auto" }}>
                                             <div className="d-flex justify-content-between align-items-center">
-                                                <div className="m-3"><b>Ksh.{product.price}</b></div>
-                                                <NavLink className="stretched-link" to={`/product/${product.id}`}>
+                                                <div className="m-3"><b>Ksh.{getProducts.price}</b></div>
+                                                <NavLink className="stretched-link" to={`/product/${getProducts.id}`}>
                                                     <button className="btn btn-sm m-3 border-primary">
                                                         <i className="fa fa-arrow-right text-muted"></i>
                                                     </button>

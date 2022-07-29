@@ -12,13 +12,14 @@ function Product() {
     useEffect(() => {
         const getProduct = async () => {
             setLoading(true);
-            const response = await fetch(`https://electronics-details.herokuapp.com/electronics`);
+            const response = await fetch(`https://e-products.herokuapp.com/electronics/${id}`);
             const data = await response.json();
             setProduct(data);
             setLoading(false);
         }
         getProduct();
     }, [id]);
+
     const Loading = () => {
         return (
             <>
@@ -71,6 +72,7 @@ function Product() {
             </>
         )
     }
+
     const ShowDetails = () => {
         return (
             <>
@@ -101,7 +103,7 @@ function Product() {
                                                 {product.title}
                                             </h5>
 
-                                            {/* Rating {product.rating && product.rating.rate} */}
+                                        
                                             <i className="fa fa-star text-warning"></i>
 
                                             <div className="price d-flex flex-row align-items-center">
@@ -119,6 +121,7 @@ function Product() {
             </>
         )
     }
+
     return (
         <>
             <div className="container px-0 mb-5" style={{ marginTop: "66px" }}>
