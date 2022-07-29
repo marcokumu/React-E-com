@@ -36,7 +36,7 @@ In order to clone this project, use the following SSH url:
 
 "git@github.com:marcokumu/React-E-com.git"
 
-![Alt text](./public/carousel-pics/Screenshot%20from%202022-07-28%2011-29-12.png "Title")
+![Alt text](./public/carousel-pics/Screenshot%20from%202022-07-29%2010-00-28.png "Title")
 
 ## LIVE LINK
 
