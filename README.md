@@ -1,6 +1,6 @@
 # E-COMMERCE APP WITH REACTJS
 
-## AUTHOR 
+## AUTHOR
 
 - ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FMarkOkumu5)
 - Github:  <a href="https://github.com/marcokumu">marcokumu </a>
@@ -14,9 +14,8 @@ This is an SPA (Single Page Application) that has been built with certain object
 
     3. The website should be consuming a json.server with my own data.
 
+## LANGUAGES USED
 
-## LANGUAGES USED 
-    
     1.HTML
 
     2.CSS
@@ -25,14 +24,14 @@ This is an SPA (Single Page Application) that has been built with certain object
 
 ## CHALLENGES FACED WHEN BUILDING THIS APP
 
-- Entering my own data in the json.server was a long and tedious process. 
+- Entering my own data in the json.server was a long and tedious process.
 
 
 
 
-## INSTALLATION PROCESS 
+## INSTALLATION PROCESS
 
-In order to clone this project, use the following SSH url:   
+In order to clone this project, use the following SSH url:
 
 "git@github.com:marcokumu/React-E-com.git"
 
@@ -41,18 +40,18 @@ In order to clone this project, use the following SSH url:
 ## LIVE LINK
 
 Here is the project's live link: <br>
-https://okumuelectronics.netlify.app/
+<https://okumuelectronics.netlify.app/>
 
 ## BACKEND REPO
 
 Here's the json.server: <br>
-https://github.com/marcokumu/electronics-json-server
+<https://github.com/marcokumu/electronics-json-server>
 
-## CONTRIBUTING 
+## CONTRIBUTING
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## LICENSE 
+## LICENSE
 
 <a href="https://choosealicense.com/licenses/mit/">[MIT]</a>
 
