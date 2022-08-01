@@ -1,10 +1,9 @@
-
-import NavBar from './components/NavBar';
-import Home from './components/Home';
-import Products from './components/Products';
-import Product from './components/Product';
-import Footer from './components/Footer';
-import { Route, Routes } from 'react-router-dom';
+import NavBar from "./components/NavBar";
+import Home from "./components/Home";
+import Products from "./components/Products";
+import Product from "./components/Product";
+import Footer from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
