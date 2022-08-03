@@ -4,7 +4,6 @@ import Skeleton from "react-loading-skeleton";
 import { NavLink } from "react-router-dom";
 
 
-
 function Product() {
   const { id } = useParams();
   const [product, setProduct] = useState([]);

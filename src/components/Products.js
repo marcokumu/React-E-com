@@ -115,7 +115,7 @@ function Products() {
     const updateList = data.filter((x) => x.category === category);
     setFilter(updateList);
   };
-
+  
   const ShowProducts = () => {
     return (
       <>
@@ -229,4 +229,3 @@ function Products() {
 }
 
 export default Products;
-
