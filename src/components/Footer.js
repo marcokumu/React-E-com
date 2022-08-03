@@ -14,7 +14,7 @@ const Footer = () => {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
           >
             <NavLink className="text-light text-decoration-none" to="/">
-              OkumuElectronics© 2022
+              Copyright© OkumuElectronics 2022
             </NavLink>
           </div>
         </footer>

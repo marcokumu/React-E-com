@@ -51,8 +51,8 @@ const Home = () => {
             </div>
             <div className="carousel-item active" data-bs-interval="1000">
               <img
-                width={50}
-                height={620}
+              width={50}
+              height={620}
                 src="carousel-pics/img3.jpg"
                 className="d-block w-100"
                 alt="..."
