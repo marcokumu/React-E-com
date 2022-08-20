@@ -60,7 +60,7 @@ const Home = () => {
             </div>
           </div>
           {/* TODO: Still working on making the carousel button  */}
-          FIXME:  carousel button to be fixed later on. 
+          {/* FIXME:  carousel button to be fixed later on.  */}
           {/* 
           <button className="carousel-control-prev" type="button" data-bs-target="#ElectronicsCarouselInterval" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
